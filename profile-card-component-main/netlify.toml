@@ -1,11 +1,11 @@
-# age-calculator/netlify.toml
+# Age Calculation netlify.toml
 
 [build]
-  command = "npm run build"  # Adjust based on your build command
-  publish = "."              # Adjust based on your build output directory
+  command = "echo 'Build command not required for a JavaScript project'"
+  publish = "age-calculator"  # Adjust based on your project structure
 
 [[redirects]]
   from = "/*"
-  to = "/profile-card/:splat"
+  to = "/:splat"
   status = 200
   force = true

@@ -1,0 +1,10 @@
+# netlify.toml at the root level
+
+[build]
+  command = "npm run build"  # Adjust this based on your build command
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
+  force = true

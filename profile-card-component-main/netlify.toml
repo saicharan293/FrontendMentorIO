@@ -1,0 +1,11 @@
+# age-calculator/netlify.toml
+
+[build]
+  command = "npm run build"  # Adjust based on your build command
+  publish = "."              # Adjust based on your build output directory
+
+[[redirects]]
+  from = "/*"
+  to = "/profile-card/:splat"
+  status = 200
+  force = true

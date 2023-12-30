@@ -2,7 +2,7 @@
 
 [build]
   command = "echo 'Build command not required for a JavaScript project'"
-  publish = "age-calculator"  # Adjust based on your project structure
+  publish = "profile-card-component-main"  # Adjust based on your project structure
 
 [[redirects]]
   from = "/*"

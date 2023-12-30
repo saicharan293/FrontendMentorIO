@@ -1,7 +1,6 @@
 # Age Calculation netlify.toml
 
 [build]
-  command = "echo 'Build command not required for a JavaScript project'"
   publish = "profile-card-component-main"  # Adjust based on your project structure
 
 [[redirects]]

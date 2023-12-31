@@ -1,12 +1,4 @@
-
-# Age Calculation netlify.toml
-
 [build]
-  publish = "age-calculator-app-main"  # Adjust based on your project structure
-
-[[redirects]]
-  from = "/*"
-  to = "/:splat"
-  status = 200
-  force = true
-
+base = "age-calculator-app-main" 
+command = "echo 'No build step'"  
+publish = "age-calculator-app-main"  

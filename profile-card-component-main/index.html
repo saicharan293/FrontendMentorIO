@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Document</title> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <main id="container">
+        <img class="img1" src="images/bg-pattern-top.svg" alt="">
+        <img class="img2" src="images/bg-pattern-bottom.svg" alt="">
+        <section id="center">
+            <img src="images/image-victor.jpg" alt="">
+            <section id="center1"></section>
+            <section id="center2">
+                <section id="name">
+                    <h3>Victor Crest</h3>
+                    <p>26</p>
+                </section>
+                <p>London</p>
+            </section>
+            <section id="center3">
+                <section id="detail">
+                    <h3 id="num">80K</h3>
+                    <p id="text">Followers</p>
+                </section>
+                <section id="detail">
+                    <h3 id="num">803K</h3>
+                    <p id="text">Likes</p>
+                </section>
+                <section id="detail">
+                    <h3 id="num">1.4K</h3>
+                    <p id="text">Photos</p>
+                </section>
+            </section>
+        </section>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Amudala Sai Charan</a>.
+        </div>
+    </main>
 </body>
 </html>

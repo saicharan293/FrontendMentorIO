@@ -1,3 +1,0 @@
-[build]
-publish = "profile-card-component-main"
-command = "echo 'No build step for Project2'"

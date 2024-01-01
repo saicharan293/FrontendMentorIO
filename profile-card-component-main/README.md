@@ -25,12 +25,11 @@ Very good sample to practice HTML in accordance to CSS.
 
 ### Screenshot
 
-![](./screenshot.jpg)
 ![Screen shot](image.png)
-
 ### Links
 
 - Solution URL: [Git hub](https://github.com/saicharan293/FrontendMentorIO/tree/main)
+- Live Site URL: [Netlify] (https://fmioprofilecard.netlify.app/)
 ## My process
 - I considered the background as main section
 - Main section contain a subsection with id center and is placed at the center of page using display=flex in css
